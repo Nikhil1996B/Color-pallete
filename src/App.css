@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: absolute;
+  margin: 0 auto;
+  width: 90%;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.canvas-box {
+  height: 60px;
+  width: 100px;
+  margin: 2px 2px;
+}
+
+.selected-box {
+  border: 1px solid #000;
+  height: 100px;
+  width: 100px;
+}
+.marginleft {
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.container {
+  display: flex;
+}
+.left-section {
+  border-left: #000 solid 1px;
+  overflow-y: auto;
+  padding-left: 10px;
+  width: 54%;
+}
+.right-section {
+  margin-left: 28px;
+  width: 30%;
+}
